@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>중앙정렬레이아웃, OneTrue레이아웃, 고정바</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {margin: 0; padding: 0;}
+
+        #centerlayout {
+            margin: 0 auto; /* 정중앙 위치 */
+            margin-top: 50px;
+            width: 760px;
+        }
+        /* OneTrue layout */
+        #onetruelayout {
+            width: 600px;
+            margin: 10px auto;  
+        }
+        #top {
+            background-color: green;
+        }
+        #middle {
+            overflow: hidden; /* 레이아웃 정렬 */
+            background-color: coral;
+        }
+        #left {
+            float: left; width: 400px;
+            background-color: coral;
+        }
+        #right {
+            float: right; width: 200px; 
+            background-color: yellowgreen;
+        }
+        #bottom {
+            background-color: purple;
+        }
+        .top_bar {
+            background-color: red;
+            height: 50px;
+            position: fixed;
+            left: 0; right: 0; top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="top_bar"></div>
+    <div id="centerlayout">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, sit.</h2>
+        <!-- VS Code p*4>lorem10 tab -->
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illum nihil veniam amet natus eaque laborum culpa, similique obcaecati, in doloribus dolores praesentium voluptatem unde, alias repudiandae expedita molestiae autem deserunt harum hic. Sint, dolorum officia veritatis iusto sed aliquid? Ducimus vitae dignissimos illum incidunt odio. Vel exercitationem suscipit, architecto cumque recusandae, autem ea quos amet consectetur corrupti debitis voluptatem nihil dolor consequatur iure aperiam? Sequi, libero et rem ducimus non exercitationem id nemo quidem! Eaque inventore tempora error vero cum nemo recusandae aliquid voluptatum enim! Mollitia, eveniet ratione? Modi accusantium qui eos quia nihil ipsa rerum consequuntur at illum.</p>
+            <p>Ullam id amet iste laboriosam molestias nulla sit beatae, consequatur quibusdam dignissimos assumenda doloribus debitis, facilis natus nobis vel voluptates voluptatem non quis! Quo quia dolorum non illo, ut ratione veritatis in laborum maxime tempore minus est sunt quod neque ab iusto, harum mollitia saepe. Laboriosam quia laudantium ducimus sit! Eaque rerum aliquid assumenda quas voluptatum nisi, et magni voluptatibus totam vitae esse harum ad tenetur officia saepe sed. Quo odit doloremque nihil earum fugit harum at neque fugiat corporis nulla quam nam error beatae, provident molestias doloribus architecto cumque, rerum maiores dolorem explicabo pariatur adipisci voluptatem dolores. Ut, est!</p>
+            <p>Quia nam minima cupiditate corrupti sapiente autem aliquam animi ab voluptatem eveniet maiores, obcaecati ex rerum reiciendis nisi ullam temporibus! Quis nulla et molestiae ab? Provident, omnis eaque! Vero incidunt error sequi dolorum tempore laborum in, nostrum porro repudiandae. Fuga, facilis quae voluptatum ab aspernatur non ducimus, quia debitis magni aliquid fugit ipsum doloribus accusamus laboriosam eum maiores aliquam molestias. Nesciunt ut, perspiciatis ipsum, labore illo quis quos reprehenderit ipsa porro iusto iure. Illo accusamus explicabo, assumenda voluptas, ex fuga sunt veniam dolores soluta alias est nemo repellendus ea! Quo amet ab sequi quibusdam doloremque harum omnis, fugiat qui commodi!</p>
+        </div>
+    </div>
+    <div id="onetruelayout">
+        <div id="top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non magnam, ducimus illo magni labore velit excepturi neque ratione, 
+            quas nemo ab facere nihil quasi sint. Ratione commodi repellendus optio ex?
+        </div>
+        <div id="middle">
+            <div id="left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore ullam obcaecati blanditiis quae,
+                repellendus est iure repellat, cumque adipisci, assumenda iusto soluta id debitis dicta porro alias autem nesciunt!
+            </div>
+            <div id="right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam voluptatibus tempore, 
+                saepe temporibus quaerat voluptatem libero molestias consectetur eius? Et odio similique dolore architecto omnis? Deleniti neque nisi a.
+            </div>
+        </div>
+        <div id="bottom">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Quia quod dolores sunt porro saepe obcaecati commodi molestias ex nisi recusandae perspiciatis rerum a, 
+            autem cum odit maxime. Sint, quam beatae.
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatem totam excepturi asperiores laboriosam. 
+       Expedita maiores eius quidem, porro dignissimos exercitationem, consequuntur, perferendis obcaecati nemo a odit modi at fugit eveniet 
+       quod suscipit fugiat minus optio dolorem sapiente. Voluptatibus quas porro nam libero veritatis, dignissimos aliquid autem quam ea 
+       perspiciatis. At inventore itaque maxime repellendus molestiae eius cupiditate. Voluptatum ut minus laborum accusamus laboriosam eos 
+       eaque quibusdam unde quia quaerat quos aspernatur, quasi ab obcaecati ipsum aut tempora provident placeat vitae veritatis eveniet 
+       voluptatem numquam. Sed eligendi suscipit debitis nobis, ducimus vero amet, repellendus libero, fugiat velit eos aut aperiam.</p>
+</body>
+</html>

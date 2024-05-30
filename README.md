@@ -41,13 +41,13 @@ IoT 개발자과정 ASP.NET 리포지토리
     - 기본태그(body)
         - h1 ~ h6 : 제목(마크다운 #, ##와 동일)
         - p : 일반문장
-        - div : 그룹화 구분자, 아주 중요!(CSS 연계 디자인)
+        - div, span : 그룹화 구분자, 아주 중요!(CSS 연계 디자인)
         - img : 이미지 표현
         - br : 한줄 내리기(엔터)
         - hr : 가로선
         - 특수문자 : & ; 사이에 영문자로 표시(너무 많음..)
         - strong 또는 b : 볼드체
-        - em : 이탤릭체
+        - em 또는 i : 이탤릭체
         - mark : 형광펜 효과
         - small, sub, sup : 글자 작게, 아래첨자, 윗첨자
         - u, strike : 밑줄, 취소선
@@ -71,7 +71,7 @@ IoT 개발자과정 ASP.NET 리포지토리
             - type = "text" : 텍스트박스
             - type = "password" : 비밀번호 박스
             - type = "button" : 일반버튼
-            - type = "submit" : 제출
+            - type = "submit" : 제출(!)
             - checkbox : 체크박스
             - radio : 라디오버튼
             - file : 파일 업로드
@@ -91,7 +91,27 @@ IoT 개발자과정 ASP.NET 리포지토리
 
 ## 2일차
 - HTML5
-    - 시맨틱 태그
+    - 시맨틱 웹 - 시멘틱 태그로 화면 구조를 잡는 웹구성 방식
+        - header,main, content, nav, footer, aside, section, article ... 구조태그(화면에 안나타남) 사용
+        - 시맨틱 태그를 div로 바꿔도 똑같이 동작하기 때문에 요새는 많이 사용안함. 걷어내고 있는 추세
+
 - CSS3
-    - 웹 디자인 핵심
+    - 웹 디자인 핵심, Cascading Style Sheets 
+    - 상단에서부터 <body> 부터 하위에 태그들 계속해서 적용되는 스타일이라는 뜻
+    - 선택자에게 주어지는 디자인 속성
+    - 선택자(selector)
+    - 속성(property)
+    - 배경, 폰트 ...
+    - 레이아웃
+        - HTML 만으로는 화면 레이아웃이 만들어지지 않음
+        - 중앙정렬, 원트루, 고정바..
+    - 반응형 웹(Responsive Web)
+        - 메타태그 viewport를 사용하면 그때부터 반응형 웹이 됨!
+        ```html
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        ```
+        - @media 태그 : 디바이스 종류별로 CSS 따로 디자인 가능
+        
+## 3일차
 - Javascript
+
