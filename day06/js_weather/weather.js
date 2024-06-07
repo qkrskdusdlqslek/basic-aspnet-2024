@@ -23,11 +23,9 @@ search.addEventListener('click', () => {
         return;
     }
 
-    
-
     const image = document.querySelector('.weather-box img');
     const temperature = document.querySelector('.weather-box .temperature');
-    const description = document.querySelector('weather-box .description');
+    const description = document.querySelector('.weather-box .description');
     const humidity = document.querySelector('.weather-details .humidity span');
     const wind = document.querySelector('.weather-details .wind span');
 
@@ -43,9 +41,9 @@ search.addEventListener('click', () => {
         weatherDetails.classList.add('active');
         error404.classList.remove('active');
 
-        setTimeout(() => {
-            container.classList.remove('active');
-        }, 2500);
+        // setTimeout(() => {
+        //     container.classList.remove('active');
+        // }, 2500);
 
         switch (json.weather[0].main) {
             case 'Clear':
@@ -69,7 +67,7 @@ search.addEventListener('click', () => {
                 break;
     
                 case 'Haze':
-                image.src = './images/mist.png';
+                image.src = './images/clear.png';
                 break;
     
                 default:
@@ -106,12 +104,12 @@ search.addEventListener('click', () => {
 
             const CloneInfoWeather = document.querySelectorAll('.info-weather.active-clone');
             const totalCloneInfoWeather = CloneInfoWeather.length;
-            const cloneInfoWeatherFirst = cloneInfoWeather[0];
+            const cloneInfoWeatherFirst = CloneInfoWeather[0];
 
-            const CloneInfoHumidity = document.querySelectorAll('.info-humidity.active-clone');
+            const cloneInfoHumidity = document.querySelectorAll('.info-humidity.active-clone');
             const cloneInfoHumidityFirst = cloneInfoHumidity[0];
 
-            const CloneInfoWind = document.querySelectorAll('.info-wind.active-clone');
+            const cloneInfoWind = document.querySelectorAll('.info-wind.active-clone');
             const cloneInfoWindFirst = cloneInfoWind[0];
 
             if (totalCloneInfoWeather > 0) {
@@ -121,12 +119,10 @@ search.addEventListener('click', () => {
 
                 setTimeout(() => {
                     cloneInfoWeatherFirst.remove();
+                    cloneInfoHumidityFirst.remove();
+                    cloneInfoWindFirst.remove();
                 }, 2200);
             }
-
         }
-
-
-
     });
 });
