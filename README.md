@@ -206,9 +206,7 @@ IoT 개발자과정 ASP.NET 리포지토리
     - 개인 웹페이지 클로닝
         - Weather_App(진행중)
 
-## 7일차 (공휴일)
-
-## 8일차
+## 7일차
 - 개인 웹페이지 클로닝
     - Weather_App(완료)
 
@@ -216,7 +214,7 @@ IoT 개발자과정 ASP.NET 리포지토리
     
     - Personal Portfolio Website(진행중)
 
-## 9일차
+## 8일차
 - ASP.NET
     - ASP.NET 역사
         - 1990년대 MS가 웹 서버기술로 ASP(Active Server Page)를 배포. like JSP(Java Server page)
@@ -240,8 +238,8 @@ IoT 개발자과정 ASP.NET 리포지토리
 
     - ASP.NET 종류
         - ASP.NET Webforms - 2000년도 초반에 나오다가 사장된 웹사이트 개발기술(X)
+        - **ASP.NET Core 웹앱(MVC) - 가장 기본적인 프론트엔드(HTML, CSS, JS .cshtml) + 백엔드(C# .aspx.cs) 웹사이트개발**
         - **ASP.NET Core 웹 API - 데이터포털, 네이버, 카카오, 영화API 사이트를 만드는 백엔드(프론트엔드가 없어서 화면이 없음)**
-        - **ASP.NET Core 웹앱(MVC) - 가장 기본적인 프론트엔드(HTML, CSS, JS .html) + 백엔드(C# .aspx.cs) 웹사이트개발**
         - Js(Vue, Angular, React) 프론트엔드 + ASP.NET Core 백엔드 
         - Edge용 웹 드라이버 테스트 - 엣지 브라우저에 종속된 테스트용(X)
         - ASP.NET Core gRPC 서비스 - 고성능 원격프로시저호출(스트리밍 호출) 서비스
@@ -262,6 +260,48 @@ IoT 개발자과정 ASP.NET 리포지토리
         
         <img src="https://raw.githubusercontent.com/qkrskdusdlqslek/basic-aspnet-2024/main/day09/images/an0002.png" width="730">
 
+        - 프론트엔드가 예전엔 스파게티코드가 무지 심했다면, 현재는 스파게티코드가 최소화 되어있음.(SpringBoot, Python flask든 모두 동일)
+        - IIS Express Server - VS에서 ASP.NET 웹사이트를 운영하는 개발용 웹서버
+        - index.* - 웹사이트 가장 대문되는 페이지 이름 
+        - 파일 저장시 핫다시로드(HotReload) 체크
+        - @로 시작하는 C# 구문. Tag helper, Html helper 로 HTML 구문 내에 C# 코드를 적어서 활용하는 방법 = Razor 구문
+        - Action == HTML에서 form태그내 submit버튼 클릭! / 링크를 클릭하는 것, 윈앱에서 이벤트와 동일
+        - 액션(이벤트)이 발생한 이후 처리하는 메서드의 결과를 ActionResult
+        - 콘솔 서버로그 잘 확인할 것, 프로세스가 종료되면 웹사이트 실행 안됨.
+
+    - 데이터베이스 연동방법
+        - DB first - 가장 전통적인 DB 연동방식. DB설계, DB구축, C#과 연동
+        - Code first - 최근 트렌드가 되는 DB 연동방식. C# 엔티티 클래스 작성, DB연결 설정 후 실행하면 DB에  테이블이 생성 
+        - EntityFramework를 사용하면 아주 손쉽게 구축가능
+
+    - EntityFramework(Core) 설치
+        - Microsoft.EntityFrameworkCore
+        - Microsoft.EntityFrameworkCore.Tools
+        - Microsoft.EntityFrameworkCore.SqlServer
+        
+    - Code first 구현순서
+        - ASP.NET 프로젝트 생성
+        - EF 패키지 설치
+        - 엔티티 클래스 작성
+        - appsettings.json에 DB연결문자열 추가
+        - Data/ApplicationDbContext.CS 중간연결 클래스 생성
+        - Program.CS Services 내에 DbContext 종속성을 주입
+        - NuGet 패키지 관리자 > 패키지 관린자 콘솔 실행
+            ```shell
+            PM> Add-Migration 마이그레이션명
+            Build started...
+            Build succeeded.
+            ...
+            PM> Update-Database
+            ...
+            Done.
+            ```
+## 9일차
+- ASP.NET Core MVC
+    - 필요 이론
+    - 연습
+    - 개인 포트폴리오 웹사이트 
+    - Bootstrap 테마 적용
         
  
 
