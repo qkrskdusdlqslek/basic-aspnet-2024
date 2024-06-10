@@ -214,6 +214,11 @@ IoT 개발자과정 ASP.NET 리포지토리
     
     - Personal Portfolio Website(진행중)
 
+
+https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6174-4751-a6a4-a5fda667a83b
+
+
+
 ## 8일차
 - ASP.NET
     - ASP.NET 역사
