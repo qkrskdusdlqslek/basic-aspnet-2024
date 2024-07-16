@@ -346,6 +346,8 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
     23. /Controller/BoardController.cs를 생성(모델, 뷰 연결)
         - Entity Framework를 사용하며 뷰가 포함된 MVC컨트롤러
 
+        <img src="https://raw.githubusercontent.com/qkrskdusdlqslek/basic-aspnet-2024/main/images/an0004.png">
+
 ## 10일차
 - ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
     1. Board.cs 멤버속성 ModeDate -> ModDate
