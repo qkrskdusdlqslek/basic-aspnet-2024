@@ -301,6 +301,7 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
             ...
             Done.
             ```
+
 ## 9일차(07.16)
 - ASP.NET Core MVC
     - 필요 이론
@@ -346,7 +347,13 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
         - Entity Framework를 사용하며 뷰가 포함된 MVC컨트롤러
 
 ## 10일차
-
+- ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
+    1. Board.cs 멤버속성 ModeDate -> ModDate
+    2. 테이블 삭제, 재생성
+    3. 게시판 관련된 화면 수정작업
+    4. 페이징!!
+    5. 회원가입, 로그인..
+    6. 관리자모드/페이지
         
  
 
