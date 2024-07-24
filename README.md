@@ -454,6 +454,7 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
         13. Register.cshtml 회원가입 페이지
 
 ## 13일차
+- ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
     1. 이력서, 프로젝트, 컨텍트 페이지 구현하기
     2. 관리자모드/페이지
     3. 자신 컴퓨터 IIS 서버에 웹사이트 올리기
