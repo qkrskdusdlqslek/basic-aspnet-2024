@@ -462,6 +462,11 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
         4. HomeController.cs Login Post 메서드 작성
         5. Logout Get메서드 추가
 
+
+        https://github.com/user-attachments/assets/2cbcd6c9-1815-4a66-bb40-a77d02bbcccf
+
+
+
     2. 이력서, 프로젝트, 컨텍트 페이지 구현하기
     3. 관리자모드/페이지
     4. 자신 컴퓨터 IIS 서버에 웹사이트 올리기
