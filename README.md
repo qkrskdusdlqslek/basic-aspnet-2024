@@ -455,11 +455,18 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
 
 ## 13일차
 - ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
-    1. 이력서, 프로젝트, 컨텍트 페이지 구현하기
-    2. 관리자모드/페이지
-    3. 자신 컴퓨터 IIS 서버에 웹사이트 올리기
-    4. AMS 라이트세일로 웹사이트 공개하기
-    5. 부트스트랩 템플릿 커스터마이징, 본인 포트폴리오 사이트 만들기
+    1. 회원가입 계속..
+        1. Register.cshtml에 asp-for로 변경
+        2. HomeController.cs Register Post 메서드 작성
+        3. Login.cshtml에 C# Razor tag로 변경
+        4. HomeController.cs Login Post 메서드 작성
+        5. Logout Get 메서드 추가
+
+    2. 이력서, 프로젝트, 컨텍트 페이지 구현하기
+    3. 관리자모드/페이지
+    4. 자신 컴퓨터 IIS 서버에 웹사이트 올리기
+    5. AMS 라이트세일로 웹사이트 공개하기
+    6. 부트스트랩 템플릿 커스터마이징, 본인 포트폴리오 사이트 만들기
         
  
 

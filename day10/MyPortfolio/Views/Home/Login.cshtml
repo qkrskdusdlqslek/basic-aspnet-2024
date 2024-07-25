@@ -14,11 +14,11 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
         <div class="form-floating">
-            <input type="email" class="form-control" id="usermail" asp-for="UserEmail" placeholder="name@example.com" >
+            <input type="email" class="form-control" id="usermail" asp-for="UserEmail" placeholder="name@example.com" required>
             <label for="usermail" asp-for="UserEmail">이메일 주소</label>
         </div>
         <div class="form-floating">
-            <input type="password" asp-for="Password" class="form-control" id="floatingPassword" placeholder="Password" >
+            <input type="password" asp-for="Password" class="form-control" id="floatingPassword" placeholder="Password" required >
             <label for="floatingPassword" asp-for="Password">비밀번호</label>
         </div>
 
