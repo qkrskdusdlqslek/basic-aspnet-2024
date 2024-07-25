@@ -460,11 +460,7 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
         2. HomeController.cs Register Post 메서드 작성
         3. Login.cshtml에 C# Razor tag로 변경
         4. HomeController.cs Login Post 메서드 작성
-        5. Logout Get 메서드 추가
-
-
-    https://github.com/user-attachments/assets/8222e596-f552-4542-9da2-ad82ea048186
-
+        5. Logout Get메서드 추가
 
     2. 이력서, 프로젝트, 컨텍트 페이지 구현하기
     3. 관리자모드/페이지
