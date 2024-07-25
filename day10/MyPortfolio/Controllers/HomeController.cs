@@ -118,5 +118,10 @@ namespace MyPortfolio.Controllers
 
             return View(user);
         }
+
+        public IActionResult Project()
+        {
+            return View();
+        }
     }
 }
