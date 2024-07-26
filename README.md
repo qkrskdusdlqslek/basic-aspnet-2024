@@ -483,7 +483,37 @@ https://github.com/qkrskdusdlqslek/basic-aspnet-2024/assets/158007421/72cd7078-6
 
 ## 14일차
 - ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
-    1. AWS 라이트세일로 웹사이트 공개하기
+    1. AWS 라이트세일로 윈도우서버 인스턴스 만들기
+        1. 구글 AWS 라이트세일 검색
+        2. AWS 프리티어로 회원가입
+        3. AWS 라이트세일로 로그인
+        4. 루트 사용자로 로그인
+        5. 인스턴스 생성
+            - Linux/Unix는 라즈비안과 거의 동일
+            - MS Windows OS 전용 > Windows Server 2016 선택
+            - 무료 중 가장 성능이 좋은 거 선택
+            - 인스턴스 확인 이름 변경
+            - 인스턴스 생성 클릭
+        6. 인스턴스 관리
+            - 관리로 진입
+            - 네트워킹 탭 > 고정 IP 연결 클릭
+            - 자신의 고정아이피
+            - Administrator
+            - 비번 확인
+        7. 원격 데스크톱 연결
+            - 컴퓨터 : 고정아이피 주소
+            - Network2 Yes 클릭
+            - 서버 매니저 오픈
+            - IE Enhanced Security Config. ON->OFF
+            - 인터넷 익스플로러 오픈 구글
+            - 크롬 브라우저 설치
+            - FileZilla Server 검색 /설치
+        8. 파일질라 서버 설정
+            - 메뉴 >
+
+        9. SQL Server 다운로드
+
+
     2. 자신 컴퓨터 IIS 서버에 웹사이트 올리기
     3. 프로젝트 화면 DB 연동하기
     4. Contact 메일보내기(네이버 연동)
