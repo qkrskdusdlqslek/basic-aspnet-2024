@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data;
 using MyPortfolio.Models;
 using System.Diagnostics;
@@ -91,6 +92,13 @@ namespace MyPortfolio.Controllers
 
             return RedirectToAction("Index", "Home"); 
         }
+
+        //// 회원등록 페이지 열어줘
+        //[HttpGet]
+        //public IActionResult Register()
+        //{
+        //    return View();
+        //}
 
         // 회원등록 페이지 내용을 DB에 저장해줘
         [HttpPost]
